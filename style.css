@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(231, 221, 234);
+}
+form{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    margin: 120px auto;
+    padding: 50px;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
+    border-radius: 6px;
+}
+.btn{
+    color: white;
+    background-color: rgb(50, 50, 49);
+    padding: 10px;
+    font-size: large;
+    border-radius: 10px;
+}
+@media screen and (max-width: 700px){
+.form{
+        width: 65%;
+        padding: 40px;
+    }
+}
+.form-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-bottom: 60px;
+    background: #fff;
+}
+.form_container form
+{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px rgba(0, green, blue, alpha);
+    background: #fff;
+    text-align: center;
+    width: 500px;
+}
+.form_container form h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #333;
+}
+.from form input,
+.form form select{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin: 8px 0px;
+    background: #de8e8e;
+    border-radius: 5px;
+    text-align: center;
+}
+.form .form select option{
+    background: #fff;
+}
+
+.form_container form select .form-btn{
+    background: #fbd0d9;
+}
